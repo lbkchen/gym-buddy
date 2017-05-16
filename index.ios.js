@@ -11,23 +11,27 @@ import {
   Text,
   View
 } from 'react-native';
+import EditExercisePage from './app/components/EditExercisePage/EditExercisePage';
 
 export default class GymBuddy extends Component {
   render() {
+    // return (
+    //   <View style={styles.container}>
+    //     <Text style={styles.welcome}>
+    //       Welcome to React Native!
+    //     </Text>
+    //     <Text style={styles.instructions}>
+    //       To get started, edit index.ios.js
+    //     </Text>
+    //     <Text style={styles.instructions}>
+    //       Press Cmd+R to reload,{'\n'}
+    //       Cmd+D or shake for dev menu
+    //     </Text>
+    //   </View>
+    // );
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
-      </View>
-    );
+      <EditExercisePage />
+    )
   }
 }
 
